@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+
+<html lang="pt-br"> 
+  <head>
+	<title>UEPA - Engenharia de Software</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Kosugi+Maru" rel="stylesheet">
+  <script src="js/script.js" type="text/javascript"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Engenharia de Software é uma área da computação que se preocupa com todos os aspectos da produção de software.">
+	<link rel="icon" href="img/icon.jpeg">
+  </head>
+  <body>
+     <header class="cabecalho">
+     	<h1 class="logo">
+     		<a href="index.html" title="UEPA - Engenharia de Software">UEPA - Engenharia de Software</a>
+     	</h1>
+     	<form method="post">
+     		<input type="text" placeholder="Faça uma busca">
+     		<button><i class="fa fa-search fa-lg"></i></button>
+     	</form>
+     </header>
+     <nav class="menu">
+     	<ul>
+     		<li><a href="index.html"><i class="fa fa-home fa-lg"></i>Início</a></li>
+     		<li><a href="cursoeavaliacao.html"><i class="fa fa-graduation-cap fa-lg"></i>Curso e Avaliação</a></li>
+        <li><a href="campus.html"><i class="fa fa-university fa-lg"></i>Campus</a></li>
+     		<li><a href="colegiado.html"><i class="fa fa-book fa-lg"></i>Colegiado</a></li>
+        <li><a href="corpodocente.html"><i class="fa fa-address-card fa-lg"></i>Corpo Docente</a></li>
+        <li><a href="fale-conosco.html"><i class="fa fa-comment fa-lg"></i>Fale-Conosco</a></li>
+     	</ul>
+      <div class="icons">
+             <a class="btn-facebook" href="https://www.facebook.com/UepaOficial" title="Facebook" target="_Blank"><i class="fa fa-facebook fa-lg"></i></a>
+             <a class="btn-twitter" href="https://twitter.com/uepa_pa" title="Twitter" target="_Blank"><i class="fa fa-twitter fa-lg"></i></a>
+             <a class="btn-youtube" href="https://www.youtube.com/ascomuepa" title="Youtube" target="_Blank"><i class="fa fa-youtube fa-lg"></i></a>
+             <a class="btn-flickr" href="https://www.flickr.com/photos/biuepa/albums" title="Flickr" target="_Blank"><i class="fa fa-flickr fa-lg"></i></a>
+             <a class="btn-instagram" href="https://instagram.com/uepaoficial/" title="Instagram" target="_Blank"><i class="fa fa-instagram fa-lg"></i></a>
+             <a class="btn-issuu" href="http://issuu.com/ascom.uepa" title="Ascom" target="_Blank"><i class="fa fa-share fa-lg"></i></a>
+         </div>
+     </nav>
+     <!---------------Formulário--------------->
+     <div class="formulario">
+      <form name="form1" method="post">
+       		<fieldset>
+       			<legend>Informações</legend>
+     			<p>Nome:*</p><br>
+     			<input name="nome" type="text" placeholder="Seu Nome"></br></br>
+     			<p>Mensagem:*</p><br>
+     		<textarea name="txtMsg" cols="40" rows="10" maxlength="500" placeholder="Digite aqui sua mensagem"></textarea><br>
+     			<div>
+     			<p>Selecione a opção:</p><br>
+     				<select name="opcoes">
+     					<optgroup label="Campus">
+     						<option value="0">-Escolha um-</option>
+     						<option value="cast">Castanhal</option>
+     						<option value="bel">Belém</option>
+     						<option value="red">Redenção</option>
+     						<option value="out">Outros</option>
+     					</optgroup>
+     				</select>
+     			<div>
+     			<input type="image" src="img/btn-enviar.png" onclick="return validar();">
+       		</fieldset>
+      </form>
+
+      <aside class="onde-estamos">
+        <h2>Onde Estamos.</h2>
+        <h2>Universidade do Estado do Pará (UEPA)</h2>
+        <p>Endereço: Rua Pedro Porpino, 1181, PA 320</p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.82099769065!2d-47.9119048851659!3d-1.2811145359820897!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x92a5a590f51e45ef%3A0xe4c17d7e529a6ae!2sUniversidade+do+Estado+do+Par%C3%A1%2C+Campus+Castanhal!5e0!3m2!1spt-BR!2sbr!4v1537464018438"></iframe>
+        <a href="#" title="Email UEPA"><i class="fa fa-envelope fa-lg"></i>sec.ep.uepa@gmail.com</a><br>
+        <a href="#" title="Telefone UEPA"><i class="fa fa-phone fa-lg"></i>(91) 3721-1231, (91) 3712-2980</a>
+        <a href="#" title="Site Institucional"><i class="fa fa-link fa-lg"></i>https://www.uepa.br</a>
+        <a href="https://paginas.uepa.br/ccnt/ccntNovo/paginas/" title="CCNT"><i class="fa fa-external-link fa-lg"></i>Uepa - CCNT</a>
+
+      </aside>
+     </div>
+      
+     <section class="newsletter">
+          <h3>Newsletter</h3>
+          <p>Receba mais informações por email.</p>
+          <input type="text" placeholder="Seu Nome" required>
+          <input type="email" placeholder="Seu Email" required>
+          <button>CADASTRAR</button>  
+     </section>
+      <footer class="rodape">
+          <p>&copy Copyright - UEPA 2018 Todos os direitos reservados. Wallace Frota da Silva</p>
+      </footer>
+  </body>
+
+</html>
