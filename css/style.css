@@ -1,0 +1,105 @@
+/*-----RESET-----*/
+* {padding: 0; margin: 0; font-size: 100%; font-weight: normal; box-sizing: border-box; outline: none; font-family: 'Kosugi Maru', sans-serif;}
+ul {list-style: none;}
+a {text-decoration: none;}
+img {max-width: 100%;}
+/*-----CABEÇALHO-----*/
+.cabecalho { width: 100%; float: left; padding: 50px 8%; background: url(../img/header.jpg) no-repeat;}
+.logo a { width: 240px; float: left; height: 120px; background: url(../img/logo1.svg) no-repeat; font-size: 0; margin-top: 25px;}
+.cabecalho form { width: 30%; float: right; padding: 55px 0;}
+.cabecalho input { width: 85%; float: left; padding: 15px 10px; border-radius: 5px 0 0 5px; caret-color: red; letter-spacing: 2px;}
+.cabecalho button { width: 15%; float: right; background-color: rgba(0,0,0,.8); padding: 15px 10px; border-radius: 0px 5px 5px 0; color: #fff; cursor: pointer;}
+/*-----MENU-----*/
+.menu { width: 100%; float: left; padding: 15px 8%; background-color: #111;}
+.menu li { float: left;}
+.menu ul:hover li { opacity: .2; filter: blur(2px);}
+.menu ul li:hover { opacity: 1; filter: blur(0px);}
+.menu li a { color: #fff; font-weight: bold; font-size: 14px; margin-right: 20px; text-transform: uppercase; letter-spacing: 1px;}
+.menu li a i { margin-right: 7px; }
+.menu li a:hover { color: #dcdcdc;}
+.icons { float: right;}
+.icons a { float: left; padding: 0 12px; color: #fff; }
+.btn-facebook:hover { color: blue;}
+.btn-twitter:hover { color: #1E90FF;}
+.btn-youtube:hover { color: red;}
+.btn-flickr:hover { color: #FF1493;}
+.btn-instagram:hover { color: #7B68EE; }
+.btn-issuu:hover { color: coral;}
+/*-----SOBRE-----*/
+.principal { width: 100%; float: left; padding: 25px 8%; background-color: #f5f5f5;}
+.sobre { width: 60%; margin-right: 1%; float: left;}
+.sobre h2 { font-size: 1.8em; margin-bottom: 15px;  letter-spacing: 2px;}
+.sobre img { width: 100%; border-radius: 5px; margin-bottom: 15px;}
+.sobre p { text-align: justify; font-family: 'Roboto', sans-serif; font-size: 1.2em; letter-spacing: 1px;}
+.trabalho { width: 37%; float: right; padding: 15px 15px; background-color: #fff; border-radius: 5px; margin-top: 45px;}
+.trabalho:hover { box-shadow: 5px 30px 40px rgba(0,0,0,.9);}
+.trabalho h2 { font-size: 14pt; letter-spacing: 2px; padding: 15px 10px; font-weight: bold;}
+.trabalho p { text-align: justify; padding: 0 10px; color: gray; letter-spacing: 1px;}
+.trabalho img { width: 250px; margin: 0 17%;}
+/*-----NEWSLETTER-----*/
+.newsletter { width: 100%; float: left; padding: 50px 8%; background-color: #111;}
+.newsletter h3 { font-size: 1.8em; color: #fff; letter-spacing: 2px; margin-bottom: 12px;}
+.newsletter p { font-size: 1.2em; color: #fff; letter-spacing: 1px; margin-bottom: 15px;}
+.newsletter input { width: 40%; float: left; caret-color: red; padding: 15px 10px; letter-spacing: 2px; color: #fff; margin-right: 1%; background-color: initial; border: 1px solid #fff; border-radius: 5px;}
+.newsletter button { width: 18%; padding: 15px 10px; border-radius: 5px; cursor: pointer; letter-spacing: 2px; border: 1px solid coral;}
+.newsletter button:hover { background-color: #FF8C00; color: #fff; font-weight: bold; border: 1px solid #fff; } 
+/*-----RODAPÉ-----*/
+.rodape { width: 100%; float: left; padding: 25px 8%; background: url(../img/footer.jpg) no-repeat;}
+.rodape p { font-size: 1.2em; color: #fff; letter-spacing: 0.7px; float: left;}
+/*---------------CURSO E AVALIAÇÃO------------------*/
+#estrutura { width: 100%; float: left; padding: 15px 12%;}
+#curso { width: 48%; float: left; margin-right: 2%; padding: 25px 0px;}
+#curso h3,h4 { font-size: 1.2em; margin-bottom: 10px; font-weight: bold; letter-spacing: 2px;}
+#curso img { border-radius: 5px; width: 100%; margin-bottom: 15px;}
+#curso p { font-size: 1em; margin-bottom: 15px; letter-spacing: 2px; text-align: justify;}
+#curso span {font-weight: bold;}
+/*---------------AVALIAÇÃO--------------*/
+#avaliacao { width: 48%; float: right; border-left: 2px dotted #696969; padding: 0 25px;}
+#avaliacao:hover { background-color: #f5f5f5; border-radius: 7px;}
+#avaliacao h2 { font-size: 1.2em; padding: 25px 0; font-weight: bold;}
+#avaliacao img { width: 300px; padding: 15px 10px; margin-bottom: 15px;}
+#avaliacao p { font-size: 1em; letter-spacing: 1px; text-align: justify; color: #666666;}
+/*---------------CAMPUS----------------*/
+.campus { width: 100%; float: left; padding: 25px 15%; background-color: rgba(211,211,211);}
+.campusxx h2 { font-size: 1.2em; margin-bottom: 15px; letter-spacing: 2px;}
+.campusxx p { font-size: 1em; text-align: justify; letter-spacing: 1px; text-indent: 22px; margin-bottom: 15px;}
+.images {width: 30%; overflow: hidden; margin-right: 3.3%; float: left; border-radius: 7px; background-color: #fff; box-shadow: 0 20px 50px rgba(0,0,0,.9);}
+.images img { width: 100%; padding: 25px 15px; transition: 2s; }
+.images:hover img { transform: scale(1.5);}
+.campus figcaption { font-size: 1em; text-align: center; margin-bottom: 10px; letter-spacing: 1px;}
+/*------------CORPO DOSCENTE--------------*/
+#cardtotal { width: 100%; float: left; padding: 25px 12%; background-color: #f5f5f5;}
+#cardtotal h2 { font-size: 1.2em; letter-spacing: 2px; text-transform: uppercase; text-align: center; margin-bottom: 25px;}
+.card { width: 30%; background-color: #fff; box-shadow: 5px 15px 50px rgba(0,0,0,.8); border-radius: 10px; float: left; margin-right: 3%;}
+.cardtotal2 { width: 100%; float: left; padding: 25px 12%; background-color: #f5f5f5;}
+.card1 { width: 30%; background-color: #fff; box-shadow: 5px 15px 50px rgba(0,0,0,.8); border-radius: 10px; float: left; margin-right: 3%; }
+.detalhes h3 { font-size: 1em; font-style: italic; padding: 15px 10px; text-align: center; letter-spacing: 1px; line-height: 25px; font-weight: bold;}
+.social-icons2 { padding: 15px 15px; margin: 0 3%;}
+.social-icons2 i { margin-right: 7px;}
+.social-icons2 a { letter-spacing: 1px;}
+.social-icons2:hover i { color: red;}
+.social-icons2:hover a { color: red;}
+/*-----------COLEGIADO-------------*/
+.tabela { width: 100%; float: left; padding: 25px 12%; background-color: #f5f5f5; }
+.tabela p { text-align: center; font-size: 18pt; margin-bottom: 15px; font-weight: bold; letter-spacing: 1px;}
+.colegiado { margin-left: auto; margin-right: auto; border: 2px solid #778899; border-spacing: 0px; background-color: #fff; border-radius: 7px;}
+.colegiado td { border: 1px solid #778899; text-align: center; padding: 10px 7px; letter-spacing: 1px;}
+/*-----------FORMULÁRIO-------------*/
+.formulario { width: 100%; float: left; padding: 25px 8%; background-color: #f5f5f5;}
+.formulario form { width: 55%; height; float: left; background: url(../img/fundo.jpg) no-repeat; padding: 25px 25px; margin-right: 1%; border-radius: 10px; box-shadow: 0 20px 40px rgba(0,0,0,.7);}
+.formulario form input { width: 220px; padding: 7px 10px; border-radius: 7px; letter-spacing: 2px; border: 2px dashed red; background-color: initial; color: #111;}
+.formulario legend { font-size: 18pt; padding: 0 10px; margin-bottom: 15px; color: red; letter-spacing: 1px; border: 2px solid #778899; border-radius: 5px; }
+.formulario textarea { width: 60%; float: left; padding: 15px 10px; margin-bottom: 15px; border-radius: 7px; border: 2px dashed red; caret-color: red; letter-spacing: 2px; background-color: initial; color: #111;}
+.formulario fieldset { padding: 20px 30px; border-radius: 4px; border: 2px solid #778899;}
+.formulario div { float: left;}
+.formulario div input { float: right; margin-left: 28px; width: 200px; border: none; margin-top: -8px;}
+.formulario div select { float: left; padding: 7px 7px; border: 1px outset #708090; border-radius: 4px; color: #4682B4; }
+.formulario p { font-size: 14pt; color: red; letter-spacing: 1px;}
+/*----------ASIDE-----------*/
+.onde-estamos {width: 40%; float: right; padding: 15px 15px; background-color: #fff; box-shadow: 0 20px 50px rgba(0,0,0,.6); margin-right: 1%; border-radius: 7px;}
+.onde-estamos h2 { font-size: 1em; letter-spacing: 2px;  float: left; font-family: sans-serif; font-weight: bold; margin-bottom: 10px; padding: 0px 15px;}
+.onde-estamos p { padding: 0 15px; float: left; font-size: 14pt; color: red; letter-spacing: 1px; }
+.onde-estamos iframe { width: 95%; height: 300px; margin: 10px 15px; padding: 15px 10px; float: left; border: 1px dashed #667788; border-radius: 5px;}
+.onde-estamos a { padding: 10px 15px; float: left; color: black; }
+.onde-estamos a i { margin-right: 10px;}
+.onde-estamos a:hover i { color: blue; }
